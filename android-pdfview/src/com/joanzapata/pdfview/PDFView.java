@@ -72,7 +72,7 @@ public class PDFView extends SurfaceView {
     private AnimationManager animationManager;
 
     /** Drag manager manage all touch events */
-    private DragPinchManager dragPinchManager;
+    protected DragPinchManager dragPinchManager;
 
     /**
      * The pages the user want to display in order
