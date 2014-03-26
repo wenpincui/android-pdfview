@@ -32,7 +32,7 @@ import static com.joanzapata.pdfview.util.Constants.Pinch.*;
  *         This Manager takes care of moving the PDFView,
  *         set its zoom track user actions.
  */
-class DragPinchManager implements OnDragListener, OnPinchListener, OnDoubleTapListener {
+public class DragPinchManager implements OnDragListener, OnPinchListener, OnDoubleTapListener {
 
     private PDFView pdfView;
 
