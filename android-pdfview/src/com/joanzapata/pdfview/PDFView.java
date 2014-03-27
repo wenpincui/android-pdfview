@@ -879,6 +879,18 @@ public class PDFView extends SurfaceView {
     public float getOptimalPageWidth() {
         return optimalPageWidth;
     }
+    
+    public int getPageWidth() {
+    	return pageWidth;
+    }
+    
+    public int getPageHeight() {
+    	return pageHeight;
+    }
+    
+    public float getOptimalPageHeight() {
+        return optimalPageHeight;
+    }    
 
     private void setUserWantsMinimap(boolean userWantsMinimap) {
         this.userWantsMinimap = userWantsMinimap;
